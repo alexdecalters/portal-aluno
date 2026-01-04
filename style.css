@@ -1,0 +1,72 @@
+/* ===== RESET / BASE ===== */
+body {
+  background: #f4f6f9;
+}
+
+/* ===== TOPO ===== */
+.topbar {
+  background: #8b1538;
+  color: white;
+  min-height: 85px;
+}
+
+.logo-navbar {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  transform: scale(1.8) translateX(-12px);
+  transform-origin: left center;
+}
+
+
+/* ===== SIDEBAR ===== */
+.sidebar {
+  background: #9b1c42;
+  min-height: 100vh;
+  color: white;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  display: block;
+  transition: background 0.2s;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: #0f7c83;
+}
+
+/* ===== BANNER ===== */
+.banner {
+  background: linear-gradient(120deg, #0f7c83, #1bb3b3);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+/* ===== CARDS ===== */
+.card-custom {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.progress {
+  height: 20px;
+  border-radius: 20px;
+}
+
+.progress-bar {
+  background: #0f7c83;
+  font-weight: bold;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 991px) {
+  .logo-navbar {
+    height: 45px;
+  }
+}
